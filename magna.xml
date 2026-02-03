@@ -2,7 +2,7 @@
 <manga:anime_manga xmlns:manga="https://www.tuwebdemanga.com/schema/manga">
 
     <manga:comic>
-    <manga:titulo> One Piece</manga:titulo>
+    <manga:titulo>One Piece</manga:titulo>
     <manga:autor>Eiichiro Oda</manga:autor>
     <manga:genero> Shone</manga:genero>
     <manga:demografia>Masculina</manga:demografia>
