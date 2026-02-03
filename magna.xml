@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manga:anime_manga xmlns:manga="https://www.tuwebdemanga.com/schema/manga">
 
-    <magna:comic>
-    <titulo> One Piece</titulo>
-    <autor>Eiichiro Oda</autor>
-    <genero> Shone</genero>
-    <demografia>Masculina</demografia>
-    <publicaciones_cantidad>108</cantidad_publicaciones>
-    <estado>En publicación</estado>
-    <sipnosis>Monkey D. Luffy busca convertirse en el Rey de los Piratas encontrando el legendario tesoro.</sipnosis>
-    </magna:comic>
+    <manga:comic>
+    <manga:titulo> One Piece</manga:titulo>
+    <manga:autor>Eiichiro Oda</manga:autor>
+    <manga:genero> Shone</manga:genero>
+    <manga:demografia>Masculina</manga:demografia>
+    <manga:cantidad_publicaciones>108</mangacantidad_publicaciones>
+    <manga:estado>En publicación</manga:estado>
+    <manga:sipnosis>Monkey D. Luffy busca convertirse en el Rey de los Piratas encontrando el legendario tesoro.</manga:sipnosis>
+    </manga:comic>
 
-    <magna:comic>
-    <titulo>Fullmental Alchemist</titulo>
-    <autor>Hiromu Arakawa</autor>
-    <genero>Aventura</genero>
-    <demografia>Shonen</demografia>
-    <cantidad_publicaciones>27</cantidad_publicaciones>
-    <estado>Finalizado</estado>
-    <sipnosis>Dos hermanos usan la alquimia en una búsqueda para recuperar sus cuerpos tras un experimento fallido.</sipnosis>
-    </magna:comic>
+    <manga:comic>
+    <titulo:manga>Fullmental Alchemist</manga:titulo>
+    <autor:manga>Hiromu Arakawa</manga:autor>
+    <genero:manga>Aventura</manga:genero>
+    <demografia:manga>Shonen</manga:demografia>
+    <cantidad_publicaciones:manga>27</manga:cantidad_publicaciones>
+    <estado:manga>Finalizado</manga:estado>
+    <sipnosis:manga>Dos hermanos usan la alquimia en una búsqueda para recuperar sus cuerpos tras un experimento fallido.</manga:sipnosis>
+    </manga:comic>
 
 </manga:anime_manga>
