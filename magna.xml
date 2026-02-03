@@ -6,19 +6,19 @@
     <manga:autor>Eiichiro Oda</manga:autor>
     <manga:genero> Shone</manga:genero>
     <manga:demografia>Masculina</manga:demografia>
-    <manga:cantidad_publicaciones>108</mangacantidad_publicaciones>
+    <manga:cantidad_publicaciones>108</manga:cantidad_publicaciones>
     <manga:estado>En publicación</manga:estado>
     <manga:sipnosis>Monkey D. Luffy busca convertirse en el Rey de los Piratas encontrando el legendario tesoro.</manga:sipnosis>
     </manga:comic>
 
     <manga:comic>
-    <titulo:manga>Fullmental Alchemist</manga:titulo>
-    <autor:manga>Hiromu Arakawa</manga:autor>
-    <genero:manga>Aventura</manga:genero>
-    <demografia:manga>Shonen</manga:demografia>
-    <cantidad_publicaciones:manga>27</manga:cantidad_publicaciones>
-    <estado:manga>Finalizado</manga:estado>
-    <sipnosis:manga>Dos hermanos usan la alquimia en una búsqueda para recuperar sus cuerpos tras un experimento fallido.</manga:sipnosis>
+    <manga:titulo>Fullmental Alchemist</manga:titulo>
+    <manga:autor>Hiromu Arakawa</manga:autor>
+    <manga:genero>Aventura</manga:genero>
+    <manga:demografia>Shonen</manga:demografia>
+    <manga:cantidad_publicaciones>27</manga:cantidad_publicaciones>
+    <manga:estado>Finalizado</manga:estado>
+    <manga:sipnosis>Dos hermanos usan la alquimia en una búsqueda para recuperar sus cuerpos tras un experimento fallido.</manga:sipnosis>
     </manga:comic>
 
 </manga:anime_manga>
