@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manga:anime_manga xmlns:manga="https://www.tuwebdemanga.com/schema/manga">
+
+    <magna:comic>
+    <titulo> One Piece</titulo>
+    <autor>Eiichiro Oda</autor>
+    <genero> Shone</genero>
+    <demografia>Masculina</demografia>
+    <publicaciones_cantidad>108</cantidad_publicaciones>
+    <estado>En publicación</estado>
+    <sipnosis>Monkey D. Luffy busca convertirse en el Rey de los Piratas encontrando el legendario tesoro.</sipnosis>
+    </magna:comic>
+
+    <magna:comic>
+    <titulo>Fullmental Alchemist</titulo>
+    <autor>Hiromu Arakawa</autor>
+    <genero>Aventura</genero>
+    <demografia>Shonen</demografia>
+    <cantidad_publicaciones>27</cantidad_publicaciones>
+    <estado>Finalizado</estado>
+    <sipnosis>Dos hermanos usan la alquimia en una búsqueda para recuperar sus cuerpos tras un experimento fallido.</sipnosis>
+    </magna:comic>
+
+</manga:anime_manga>
