@@ -1,38 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Lista de Manga</title>
-    
+    <meta charset="UTF-8">
+    <title>ZONA MANGA DIGITAL</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <h1>Mis Magnas favoritos</h1>
+    <header class="barra-superior">
+        <div class="logo-central">
+            <span class="pixel-icon">👾</span>
+            <h1>ZONA MANGA DIGITAL</h1>
+            <span class="pixel-icon">👾</span>
+        </div>
+    </header>
 
-    <section>
-        <h2>One Piece</h2>
-        <ul>
-            <li><strong>Autor:</strong> Eiichiro Oda</li>
-            <li><strong>Género:</strong> Shonen</li>
-            <li><strong>Demografía:</strong> Masculina</li>
-            <li><strong>Publicaciones:</strong> 108</li>
-            <li><strong>Estado:</strong> En publicación</li>
-        </ul>
-        <p><strong>Sinopsis:</strong> Monkey D. Luffy busca convertirse en el Rey de los Piratas encontrando el legendario tesoro.</p>
-    </section>
+    <div class="layout">
+        <nav class="sidebar">
+            <ul class="menu-links">
+                <li><a href="#">⚡INICIO⚡</a></li>
+                <li><a href="#">BIBLIOTECA</a></li>
+                <li><a href="#">GÉNEROS</a></li>
+                <li><a href="#">COMUNIDAD</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+            <div class="social-box">
+                <p>NUESTRAS REDES:</p>
+                <div class="iconos">
+                    <span class="sq">F</span>
+                    <span class="sq">X</span>
+                    <span class="sq">I</span>
+                </div>
+            </div>
+        </nav>
 
-    <hr>
+        <main class="principal">
+            <div class="banner-central">
+                <h2 class="titulo-destello">MANGA & ANIME </h2>
+            </div>
 
-    <section>
-        <h2>Fullmetal Alchemist</h2>
-        <ul>
-            <li><strong>Autor:</strong> Hiromu Arakawa</li>
-            <li><strong>Género:</strong> Aventura</li>
-            <li><strong>Demografía:</strong> Shonen</li>
-            <li><strong>Publicaciones:</strong> 27</li>
-            <li><strong>Estado:</strong> Finalizado</li>
-        </ul>
-        <p><strong>Sinopsis:</strong> Dos hermanos usan la alquimia en una búsqueda para recuperar sus cuerpos tras un experimento fallido.</p>
-    </section>
+            <div class="aviso-construccion">
+                🚧 SECCIÓN EN MANTENIMIENTO - PRÓXIMAMENTE MÁS TÍTULOS 🚧
+            </div>
+
+            <section class="contenedor-cartas">
+                <article class="carta">
+                    <div class="imagen-placeholder" style="background-image: url('https://picsum.photos/seed/op/300/200');"></div>
+                    <div class="info">
+                        <h3>ONE PIECE</h3>
+                        <p><strong>Autor:</strong> Eiichiro Oda</p>
+                        <p><strong>Género:</strong> Shonen</p>
+                        <p><strong>Estado:</strong> Activo</p>
+                        <p class="desc">Monkey D. Luffy busca convertirse en el Rey de los Piratas encontrando el legendario tesoro</p>
+                    </div>
+                </article>
+
+                <article class="carta">
+                    <div class="imagen-placeholder" style="background-image: url('https://picsum.photos/seed/fma/300/200');"></div>
+                    <div class="info">
+                        <h3>FULLMETAL ALCHEMIST</h3>
+                        <p><strong>Autor:</strong> Hiromu Arakawa</p>
+                        <p><strong>Género:</strong> Aventura</p>
+                        <p><strong>Estado:</strong> Finalizado</p>
+                        <p class="desc">Dos hermanos usan la alquimia en una búsqueda para recuperar sus cuerpos tras un experimento fallido</p>
+                    </div>
+                </article>
+            </section>
+
+            <footer class="pie-pagina">
+                <div class="botones-footer">
+                    <a href="magna.xml" target="_blank" class="btn-xml">
+                        VER ARCHIVO XML
+                    </a>
+                </div>
+                <p class="copyright">© 2026 - Repositorio Público</p>
+            </footer>
+        </main>
+    </div>
 
 </body>
 </html>
