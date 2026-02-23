@@ -105,21 +105,8 @@ body {
     font-size: 50px; 
     color: #00ff9d;
     text-align: center;
-    animation: iluminacion-casera 1.5s infinite; 
 }
 
-@keyframes iluminacion-casera {
-    0%, 100% {
-        color: #00ff9d;
-        text-shadow: 0 0 5px #00ff9d, 0 0 10px #00ff9d;
-        transform: scale(1);
-    }
-    50% {
-        color: #ffffff; 
-        text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff;
-        transform: scale(1.02); 
-    }
-}
 
 .aviso-construccion {
     background: #ffff00;
