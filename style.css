@@ -1,4 +1,4 @@
-/* ESTILOS GENERALES */
+
 body {
     margin: 0;
     padding: 0;
@@ -8,7 +8,6 @@ body {
     font-size: 22px; 
 }
 
-/* HEADER CENTRADO */
 .barra-superior {
     background-color: #1a0033;
     border-bottom: 3px double #00ff9d;
@@ -35,13 +34,11 @@ body {
     font-size: 40px;
 }
 
-/* LAYOUT FLEXIBLE */
 .layout {
     display: flex;
     min-height: 100vh;
 }
 
-/* MENÚ LATERAL */
 .sidebar {
     width: 250px;
     background-color: #120026;
@@ -104,13 +101,11 @@ body {
     margin-bottom: 30px;
 }
 
-/* --- AQUÍ ESTÁ EL EFECTO DE ILUMINACIÓN --- */
 .titulo-destello {
     margin: 0;
     font-size: 50px; 
     color: #00ff9d;
     text-align: center;
-    /* Animación que dura 1.5 segundos y se repite para siempre */
     animation: iluminacion-casera 1.5s infinite; 
 }
 
@@ -121,12 +116,11 @@ body {
         transform: scale(1);
     }
     50% {
-        color: #ffffff; /* Brillo blanco */
-        text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff; /* Resplandor fucsia */
-        transform: scale(1.02); /* Crece un poquito */
+        color: #ffffff; 
+        text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+        transform: scale(1.02); 
     }
 }
-/* ----------------------------------------- */
 
 .aviso-construccion {
     background: #ffff00;
@@ -139,7 +133,6 @@ body {
     border: 3px dashed #ff0000;
 }
 
-/* TARJETAS DE MANGA */
 .contenedor-cartas {
     display: flex;
     gap: 40px;
@@ -184,7 +177,6 @@ body {
     padding-top: 10px;
 }
 
-/* PIE DE PÁGINA */
 .pie-pagina {
     margin-top: 60px;
     border-top: 4px double #00ff9d;
